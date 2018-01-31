@@ -1,0 +1,24 @@
+{
+  "name": "Front starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Michaël Ambass",
+    "email": "michael.ambass@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "uglifyjs-webpack-plugin": "^1.1.8"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1"
+  }
+}
